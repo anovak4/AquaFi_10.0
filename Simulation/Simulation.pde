@@ -122,7 +122,6 @@ void draw()
   if (chemAmount > chemicals[maxLoc[0]][maxLoc[1]]) {
     maxLoc[0] = x;
     maxLoc[1] = y;
-    System.out.println(maxLoc[0] + " " + maxLoc[1]);
   }
   
   
